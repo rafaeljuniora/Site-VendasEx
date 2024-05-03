@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;/*remove a margem do body*/
+    padding: 0;/*remove o preenchimento interno do body*/
+}
+header{
+    text-align: center;/*alinha todo o CONTEUDO*/
+    padding: 20px; 
+    background-color: #141414;
+    color:#ccc;
+}
+header h1{
+    font-size: 39px;
+    color:orange;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #141414;
+}
+.social-media img{
+    width: 30px;
+    height: 30px;
+    margin:5px;
+}
+p{
+    color: rgb(204,202,202);
+}
+p:hover{
+    color:#f8e5e5;
+}
+main{
+    background-color: #141414;
+}
+div.product{
+    text-align: center;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background:#141414;
+}
+#Produtos{
+    display: flex;
+    flex-wrap: wrap;/*Permite que os itens quebrem para proxima linha*/
+    justify-content: center;
+    gap: 20px;/*define o espaçamento entre os itens*/
+    padding: 20px;
+    background:#141414;
+}
+img.produto{
+    max-width: 300px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 10px;
+}
+button{
+    color: rgb(10,9,9);
+    background:orange;
+    border-radius: 6px;
+    width: 100px;
+}
+button:hover{
+    color: azure;
+}
+#Beneficios{
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+}
+li{
+    list-style: none;
+}
+h2.titulo2{
+    color: #141414;
+}
+.textoD{
+    margin-bottom: 5px;
+}
+#Depoimentos{
+    text-align:center;
+    padding: 3px;
+    background-color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin:0;
+}
+#Contato{
+    background-color: #141414;
+    color:#ccc;
+    text-align: center;
+}
+form input, form textarea{
+    margin-bottom: 10px;
+    padding: 10px;
+}
